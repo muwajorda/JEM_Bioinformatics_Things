@@ -1,5 +1,5 @@
 
-# Calculate logFC and Standard deviation of gene exprrssion data
+# Calculate logFC and Standard deviation of gene expression data
 This repository is dedicated to streamlining the analysis of common bioinformatics datasets, aiming to enhance the quality of code and deepen understanding of the underlying data. The primary focus is on fold change and gene expression analysis.
 
 ## Motivation
