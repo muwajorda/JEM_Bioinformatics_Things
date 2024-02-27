@@ -11,10 +11,10 @@ The provided script aims to enhance understanding and streamline the assessment 
 You must specify the input files.
 
  Input Files:
-Ensure you have the gene expression data file ('gene_counts.tsv') and the experimental design file ('experiment.design.tsv') in the appropriate format.
+Ensure you have the gene expression data file (`gene_counts.tsv`) and the experimental design file (`experiment.design.tsv`) in the appropriate format.
 
 #### Specify Conditions
-Define the conditions you want to compare ('condition_group1' and 'condition_group2').
+Define the conditions you want to compare (`condition_group1` and `condition_group2`).
 
 ### Run the Script;
 `Run_calculate gene_change.R` 
