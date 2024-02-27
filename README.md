@@ -1,15 +1,17 @@
 
-# Calculate logFC and Standard deviation of gene expression data
+# Gene Expression Analysis: Calculating Log Fold Change and Standard Deviation
 This repository is dedicated to streamlining the analysis of common bioinformatics datasets, aiming to enhance the quality of code and deepen understanding of the underlying data. The primary focus is on fold change and gene expression analysis.
 
 ## Motivation
 I developed this script to facilitate my understanding of how to manually calculate log fold change. Additionally, I was intrigued by exploring gene variability, leading me to utilize standard deviation. While I independently crafted most of the code, I received valuable assistance from ChatGPT to enhance code efficiency. My objective is to explore the significance of gene expression changes without relying on t-tests, and this script represents my progress so far.
 
-
+The provided script aims to enhance understanding and streamline the assessment of gene expression changes, capturing both the direction and consistency of alterations in biological datasets. 
 
 ### Usage
+Run :Run_calculate gene_change.R You must specify the input files 
 Input Files:
-Ensure you have the gene expression data file ('gene_expression_file') and the experimental design file ('exp_data_file') in the appropriate format.
+Ensure you have the gene expression data file ('gene_counts.tsv') and the experimental design file ('experiment.design.tsv') in the appropriate format.
+
 #### Specify Conditions
 Define the conditions you want to compare ('condition_group1' and 'condition_group2').
 Run the Script
