@@ -8,11 +8,12 @@ I developed this script to facilitate my understanding of how to manually calcul
 
 
 ### Usage
-Input Files
+Input Files:
 Ensure you have the gene expression data file ('gene_expression_file') and the experimental design file ('exp_data_file') in the appropriate format.
 #### Specify Conditions
 Define the conditions you want to compare ('condition_group1' and 'condition_group2').
 Run the Script
+
 
 Execute the script to obtain log fold change and standard deviation for a more comprehensive understanding of differential expression analysis.
 ### Acknowledgments
