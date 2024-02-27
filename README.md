@@ -8,16 +8,18 @@ I developed this script to facilitate my understanding of how to manually calcul
 The provided script aims to enhance understanding and streamline the assessment of gene expression changes, capturing both the direction and consistency of alterations in biological datasets. 
 
 ### Usage
-Run :Run_calculate gene_change.R You must specify the input files 
-Input Files:
+You must specify the input files.
+
+ Input Files:
 Ensure you have the gene expression data file ('gene_counts.tsv') and the experimental design file ('experiment.design.tsv') in the appropriate format.
 
 #### Specify Conditions
 Define the conditions you want to compare ('condition_group1' and 'condition_group2').
-Run the Script
 
-
+### Run the Script;
+`Run_calculate gene_change.R` 
 Execute the script to obtain log fold change and standard deviation for a more comprehensive understanding of differential expression analysis.
+
 ### Acknowledgments
 I would like to express my gratitude to ChatGPT for providing guidance and support in refining the code. This collaborative effort has contributed to the development of more efficient and insightful bioinformatics analyses.
 
