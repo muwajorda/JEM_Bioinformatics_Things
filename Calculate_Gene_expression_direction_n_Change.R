@@ -63,7 +63,7 @@ calculate_fold_change <- function(gene_expression_file, exp_data_file, condition
 
 
 # Example usage:
-result <- calculate_fold_change("gene_counts.tsv", "experiment.design.tsv", "normal", "prostate carcinoma")
+result <- calculate_fold_change("gene_counts.tsv", "experiment.design.tsv", "normal", "cancer")
 print(result)
 
 

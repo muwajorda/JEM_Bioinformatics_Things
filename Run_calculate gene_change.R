@@ -7,7 +7,7 @@ exp_design_file <- "path/to/experiment.design.tsv"
 
 # Specify conditions
 condition_group1 <- "normal"
-condition_group2 <- "prostate carcinoma"
+condition_group2 <- "cancer"
 
 # Call the function
 result <- calculate_fold_change(gene_counts_file, exp_design_file, condition_group1, condition_group2)
